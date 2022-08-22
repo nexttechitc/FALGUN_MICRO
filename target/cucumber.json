@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "succesful login with valid entries dm",
+        "description": "",
+        "id": "this-is-my-feature-dm;succesful-login-with-valid-entries-dm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 682199900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \"\u003cURL\u003e\" demo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "demoblazes.open_demo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97586000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to login page dm",
+            "match": {
+              "location": "demoblazes.navigate_to_login_page_dm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4337192100,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca class\u003d\"nav-link\" href\u003d\"#\" id\u003d\"login2\" data-toggle\u003d\"modal\" data-target\u003d\"#logInModal\" style\u003d\"display: block;\"\u003e...\u003c/a\u003e is not clickable at point (866, 37). Other element would receive the click: \u003cdiv class\u003d\"modal fade show\" id\u003d\"logInModal\" tabindex\u003d\"-1\" role\u003d\"dialog\" aria-labelledby\u003d\"logInModalLabel\" style\u003d\"display: block;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d103.0.5060.114)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-3ROKAB7\u0027, ip: \u0027192.168.1.167\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\nextt\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8fe2d4ad6379db7ccdc96f1db2d35396\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat demoblaze.com.action.loginpageActiondm.UserCredential(loginpageActiondm.java:16)\r\n\tat stepDefinitiondm.demoblazes.enter_usernamme_and_password_andclick_login_button_dm(demoblazes.java:24)\r\n\tat ✽.Then enter usernamme and password andclick login button dm(example.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "enter usernamme and password andclick login button dm",
+            "match": {
+              "location": "demoblazes.enter_usernamme_and_password_andclick_login_button_dm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "verify user login successfully dm",
+            "match": {
+              "location": "demoblazes.verify_user_login_successfully_dm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "this is my feature dm",
+    "description": "",
+    "id": "this-is-my-feature-dm",
+    "keyword": "Feature",
+    "uri": "example.feature"
+  }
+]
